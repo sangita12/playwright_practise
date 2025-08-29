@@ -25,4 +25,6 @@ test('Verify Product Sorting and Information Retrieval', async({page}) => {
     await expect(productPriceList).toHaveCount(25);
     await expect(productNameList).toHaveCount(25);
 
+    
+
 })
